@@ -1,0 +1,623 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-11-17 18:04+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pt\n"
+
+#: src/views/33Together/PoolInfo.jsx:67
+msgid "1 em {0}"
+msgstr ""
+
+#: src/views/33Together/33Together.jsx:150
+msgid "3, 3 Juntos"
+msgstr ""
+
+#: src/components/TopBar/OhmMenu.jsx:155
+msgid "ADICIONAR TOKEN À WALLET"
+msgstr ""
+
+#: src/views/Stake/ExternalStakePool.jsx:87
+#: src/views/Stake/Stake.jsx:196
+msgid "APY"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:155
+msgid "Quantia"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:172
+#: src/views/Stake/Stake.jsx:350
+#: src/views/Stake/Stake.jsx:379
+msgid "Aprovar"
+msgstr ""
+
+#: src/views/Stake/ExternalStakePool.jsx:84
+msgid "Ativo"
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:114
+msgid "O Saldo de Recompensa vai crescer no primeiro rebase."
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:202
+msgid "O período de Recompensa terminou, pode navegar para a UI do Pool Juntos para começar a distribuição."
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:181
+msgid "O período de Recompensa terminou, pode navegar para a UI do Pool Juntos para terminar a distribuição."
+msgstr ""
+
+#: src/views/Stake/ExternalStakePool.jsx:93
+#: src/views/Stake/ExternalStakePool.jsx:189
+msgid "Saldo"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.jsx:122
+#: src/views/ChooseBond/ChooseBond.jsx:71
+#: src/views/ChooseBond/ChooseBond.jsx:117
+#: src/views/ChooseBond/ClaimBonds.jsx:75
+msgid "Obrigação"
+msgstr ""
+
+#: src/views/Bond/Bond.jsx:66
+msgid "Preço da Obrigação"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.jsx:129
+msgid "Descontos das Obrigações"
+msgstr ""
+
+#: src/views/ChooseBond/BondRow.jsx:73
+msgid "Obrigação {0}"
+msgstr ""
+
+#: src/components/TopBar/OhmMenu.jsx:114
+#: src/components/TopBar/OhmMenu.jsx:127
+msgid "Comprar no {0}"
+msgstr ""
+
+#: src/components/TopBar/ThemeSwitch.jsx:12
+msgid "Mudar Tema"
+msgstr ""
+
+#: src/components/TopBar/LocaleSwitch.tsx:37
+msgid "Mudar de local"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:115
+#: src/views/33Together/PoolWithdraw.jsx:108
+msgid "Verifique em breve!"
+msgstr ""
+
+#: src/views/Bond/AdvancedSettings.jsx:63
+msgid "Escolha o endereço do beneficiário. Por defeito, é o endereço que tem actualmente ligado."
+msgstr ""
+
+#: src/views/Bond/BondRedeem.jsx:71
+#: src/views/ChooseBond/ClaimRow.jsx:131
+msgid "Resgatar"
+msgstr ""
+
+#: src/views/ChooseBond/ClaimBonds.jsx:118
+msgid "Resgatar todas"
+msgstr ""
+
+#: src/views/ChooseBond/ClaimBonds.jsx:135
+msgid "Resgatar todas e fazer Staking"
+msgstr ""
+
+#: src/views/Bond/BondRedeem.jsx:87
+msgid "Resgatar e fazer Autostake"
+msgstr ""
+
+#: src/views/ChooseBond/ClaimRow.jsx:139
+msgid "Resgatar e fazer Staking"
+msgstr ""
+
+#: src/views/ChooseBond/ClaimBonds.jsx:78
+msgid "Resgatável"
+msgstr ""
+
+#: src/views/Bond/BondRedeem.jsx:104
+msgid "Recompensas Resgatáveis"
+msgstr ""
+
+#: src/views/Stake/ExternalStakePool.jsx:164
+msgid "Em breve"
+msgstr ""
+
+#: src/components/ConnectButton.jsx:9
+#: src/components/TopBar/ConnectMenu.jsx:19
+#: src/views/Stake/Stake.jsx:144
+msgid "Ligar Wallet"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:257
+msgid "Ligue a sua wallet para fazer Staking de OHM"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:235
+msgid "Índice Atual"
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:121
+msgid "Prémio Atual"
+msgstr ""
+
+#: src/components/Sidebar/NavContent.jsx:77
+msgid "Painel de Ferramentas"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:259
+#: src/views/Bond/BondRedeem.jsx:128
+msgid "Rácio da Dívida"
+msgstr ""
+
+#: src/views/33Together/33Together.jsx:164
+msgid "Depositar"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:162
+msgid "Depositar sOHM"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:100
+msgid "Deposite sOHM para ganhar! Assim que depositar, vai receber a quantia correspondente de 33T e habilitar-se-á a ganhar até que o seu sOHM seja retirado."
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:179
+msgid "Depositar {quantity} sOHM vai aumentar a sua probabilidade de ganhar para 1 em {newOdds}"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:112
+msgid "Podem ser feitos depósitos assim que o prémio tenha sido atribuído."
+msgstr ""
+
+#: src/components/TopBar/ConnectMenu.jsx:27
+#: src/components/TopBar/ConnectMenu.jsx:111
+msgid "Desligar"
+msgstr ""
+
+#: src/components/Sidebar/externalUrls.jsx:20
+msgid "Documentação"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:122
+msgid "Taxa de Saída Antecipada"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:171
+msgid "A retirada antecipada incorrerá numa taxa de equidade de {exitFee}."
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:133
+msgid "Insira uma quantia"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:128
+msgid "Tempo de Decaimento da Taxa de Saída"
+msgstr ""
+
+#: src/views/Stake/ExternalStakePool.jsx:74
+msgid "Farm Pool"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:146
+msgid "Primeira vez a comprar"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:285
+msgid "Primeira vez a fazer staking de"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:292
+msgid "Primeira vez fazer unstaking de"
+msgstr ""
+
+#: src/components/Sidebar/externalUrls.jsx:10
+msgid "Fórum"
+msgstr ""
+
+#: src/views/ChooseBond/ClaimBonds.jsx:84
+msgid "Totalmente Exercível"
+msgstr ""
+
+#: src/components/Sidebar/externalUrls.jsx:15
+msgid "Governança"
+msgstr ""
+
+#: src/components/TopBar/ConnectMenu.jsx:32
+msgid "Em progresso"
+msgstr ""
+
+#: src/components/RebaseTimer/RebaseTimer.jsx:29
+#: src/components/RebaseTimer/RebaseTimer.jsx:60
+msgid "Menos de um minuto"
+msgstr ""
+
+#: src/views/Dashboard/Dashboard.jsx:44
+msgid "Valor de Mercado"
+msgstr ""
+
+#: src/views/Bond/Bond.jsx:74
+msgid "Preço de Mercado"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:146
+#: src/views/33Together/PoolWithdraw.jsx:139
+#: src/views/Bond/BondPurchase.jsx:167
+msgid "Máximo"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:241
+msgid "Máximo Que Pode Comprar"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:183
+msgid "Migrar sOHM!"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:436
+msgid "Quantia da Próxima Recompensa"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:445
+msgid "Rendimento da Próxima Recompensa"
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:131
+msgid "Próximo prémio"
+msgstr ""
+
+#: src/views/ChooseBond/ChooseBond.jsx:101
+msgid "Preço de OHM"
+msgstr ""
+
+#: src/views/404/NotFound.jsx:14
+msgid "Página não encontrada"
+msgstr ""
+
+#: src/views/ChooseBond/ClaimBonds.jsx:81
+msgid "Pendente"
+msgstr ""
+
+#: src/views/Bond/BondRedeem.jsx:96
+msgid "Recompensas Pendentes"
+msgstr ""
+
+#: src/slices/PendingTxnsSlice.ts:41
+#: src/slices/PendingTxnsSlice.ts:45
+msgid "Pendente..."
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:147
+#: src/views/Stake/Stake.jsx:287
+#: src/views/Stake/Stake.jsx:294
+msgid "Por favor aprove que o Olympus Dao use o seu"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:52
+msgid "Por favor insira um valor válido!"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:66
+#: src/views/33Together/PoolWithdraw.jsx:59
+#: src/views/Bond/BondPurchase.jsx:50
+#: src/views/Stake/Stake.jsx:113
+#: src/views/Stake/Stake.jsx:113
+msgid "Por favor insira um valor!"
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:111
+msgid "O Saldo do Prémio da Pool é atualmente 0."
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:113
+msgid "Dono da Pool"
+msgstr ""
+
+#: src/views/ChooseBond/BondRow.jsx:38
+#: src/views/ChooseBond/ChooseBond.jsx:120
+#: src/views/Dashboard/Dashboard.jsx:31
+msgid "Preço"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:40
+msgid "Informação sobre o Prémio da Pool"
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:127
+msgid "O Prémio está a ser atribuído"
+msgstr ""
+
+#: src/views/ChooseBond/BondRow.jsx:55
+#: src/views/ChooseBond/ChooseBond.jsx:126
+msgid "Comprado"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:250
+#: src/views/Bond/BondRedeem.jsx:119
+#: src/views/ChooseBond/BondRow.jsx:46
+#: src/views/ChooseBond/ChooseBond.jsx:123
+msgid "ROI"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:454
+msgid "ROI (Taxa de 5 Dias)"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:179
+msgid "Leia mais sobre Equidade"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:276
+msgid "Beneficiário"
+msgstr ""
+
+#: src/views/Bond/AdvancedSettings.jsx:57
+msgid "Endereço do Beneficiário"
+msgstr ""
+
+#: src/views/Bond/Bond.jsx:91
+msgid "Resgatar"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:407
+msgid "Staking Único"
+msgstr ""
+
+#: src/views/Bond/AdvancedSettings.jsx:37
+msgid "Deslizamento"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:182
+#: src/views/ChooseBond/BondRow.jsx:73
+#: src/views/ChooseBond/BondRow.jsx:128
+msgid "Esgotado"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:143
+msgid "Algo errado? Veja a UI do Pool Juntos abaixo."
+msgstr ""
+
+#: src/components/Sidebar/NavContent.jsx:92
+msgid "Fazer Staking"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:338
+msgid "Fazer Staking de OHM"
+msgstr ""
+
+#: src/views/Stake/ExternalStakePool.jsx:140
+#: src/views/Stake/ExternalStakePool.jsx:205
+msgid "Fazer Staking no Crucible"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:398
+msgid "Saldo em Staking"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:416
+msgid "Saldo em Staking no Fuse"
+msgstr ""
+
+#: src/slices/PendingTxnsSlice.ts:29
+msgid "A fazer Staking de OHM"
+msgstr ""
+
+#: src/views/Dashboard/Dashboard.jsx:66
+msgid "Oferta (em circulação/total)"
+msgstr ""
+
+#: src/views/Stake/ExternalStakePool.jsx:90
+#: src/views/Stake/ExternalStakePool.jsx:172
+msgid "TVD"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:109
+msgid "Esta Pool de Prémio não aceita depósitos neste momento."
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:102
+msgid "Esta Pool de Prémio não aceita retiradas neste momento."
+msgstr ""
+
+#: src/views/Bond/BondRedeem.jsx:112
+msgid "Tempo até ser totalmente exercível"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:91
+msgid "Total de Depósitos"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:99
+msgid "Total de Patrocínio"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:213
+msgid "Valor Total Depositado"
+msgstr ""
+
+#: src/views/Bond/AdvancedSettings.jsx:51
+msgid "A transação pode reverter caso o preço mude mais do que o deslizamento %"
+msgstr ""
+
+#: src/views/ChooseBond/ChooseBond.jsx:79
+msgid "Saldo da Tesouraria"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:276
+msgid "Unstaking"
+msgstr ""
+
+#: src/components/TopBar/OhmMenu.jsx:226
+msgid "Unstaking do Token de Legacy LP"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:367
+msgid "Unstaking de OHM"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:389
+msgid "Saldo fora de Staking"
+msgstr ""
+
+#: src/slices/PendingTxnsSlice.ts:29
+msgid "A fazer Unstaking de sOHM"
+msgstr ""
+
+#: src/slices/PendingTxnsSlice.ts:33
+msgid "A Desembrulhar sOHM"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:268
+#: src/views/Bond/BondRedeem.jsx:137
+msgid "Termo de Aquisição"
+msgstr ""
+
+#: src/views/ChooseBond/BondRow.jsx:28
+#: src/views/ChooseBond/BondRow.jsx:97
+msgid "Ver Contrato"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:85
+msgid "Vencedores / período do prémio"
+msgstr ""
+
+#: src/views/33Together/33Together.jsx:165
+msgid "Retirar"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:153
+msgid "Retirar Antecipadamente e pagar"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:154
+msgid "Retirar sOHM"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:105
+msgid "Retiradas podem ser feitas assim que o prémio tenha sido atribuído."
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:161
+msgid "Retirar {quantity} sOHM reduz a sua probabilidade de ganhar para 1 in {newOdds}"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:425
+msgid "Saldo Embrulhado"
+msgstr ""
+
+#: src/slices/PendingTxnsSlice.ts:33
+msgid "A Embrulhar OHM"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:107
+msgid "Fonte de Rendimento"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:232
+msgid "Vai Receber"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:93
+msgid "Pode escolher retirar o fundo depositado em qualquer altura. Ao retirar o fundo estará a eliminar / reduzir as suas hipótses de ganhar o prémio nesta pool em futuros períodos de prémio"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:119
+#: src/views/Stake/Stake.jsx:119
+msgid "Não pode fazer staking de mais do que o seu saldo em OHM."
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:123
+#: src/views/Stake/Stake.jsx:123
+msgid "Não pode fazer unstaking de mais do que o seu saldo em sOHM."
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:86
+msgid "Nao pode retirar mais do que o seu saldo na pool"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:55
+msgid "Tem uma obrigação existente. Criar uma obrigação vai reiniciar o seu período de aquisição e anular a recompensa. Recomendamos que primeiro resgate a recompensa, ou que use outra wallet. Quer continuar mesmo assim?"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:217
+msgid "O seu Saldo"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:189
+msgid "O seu Saldo em Pool (resgatável)"
+msgstr ""
+
+#: src/views/33Together/PoolDeposit.jsx:190
+msgid "O seu Saldo em Staking (Depositável)"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:61
+msgid "As suas probabilidades"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:55
+msgid "Os seus depósitos na pool"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:49
+msgid "O seu total em recompensas"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:73
+msgid "O saldo da sua wallet"
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:140
+msgid "dia"
+msgstr ""
+
+#: src/views/Bond/Bond.jsx:90
+#: src/views/ChooseBond/BondRow.jsx:128
+msgid "do_bond"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:275
+msgid "do_stake"
+msgstr ""
+
+#: src/views/Bond/BondPurchase.jsx:148
+msgid "para comprar obrigação"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:288
+msgid "para staking"
+msgstr ""
+
+#: src/views/Stake/Stake.jsx:295
+msgid "para unstaking"
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:147
+msgid "horas"
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:154
+msgid "minutos"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:158
+msgid "Detalhes da Pool de sOHM"
+msgstr ""
+
+#: src/views/33Together/PoolInfo.jsx:150
+msgid "Pool de Prémio de sOHM"
+msgstr ""
+
+#: src/views/33Together/PoolPrize.jsx:160
+msgid "segundos"
+msgstr ""
+
+#: src/components/RebaseTimer/RebaseTimer.jsx:73
+msgid "para o próximo rebase"
+msgstr ""
