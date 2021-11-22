@@ -1,8 +1,8 @@
 {
-  "short_name": "AlaDAO",
+  "short_name": "APEBANK",
   "start_url": ".",
   "homepage": "./",
-  "name": "AlaDAO",
+  "name": "APEBANK",
   "launch_path": "/public/index.html",
   "icons": [{
       "src": "favicon.ico",

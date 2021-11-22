@@ -7,7 +7,7 @@ export default function NotFound() {
     <div id="not-found">
       <div className="not-found-header">
         <a href="https://AlaDAO.io" target="_blank">
-          <img className="branding-header-icon" src={ALaLogo} alt="AlaDAO" />
+          <img className="branding-header-icon" src={ALaLogo} alt="APEBANK" />
         </a>
 
         <h4>
