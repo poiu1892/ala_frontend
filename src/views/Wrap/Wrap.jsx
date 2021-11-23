@@ -162,7 +162,7 @@ function Wrap() {
                   aria-label="wsohm-wut"
                   target="_blank"
                 >
-                  <Typography>wsOHM</Typography> <SvgIcon component={InfoIcon} color="primary" />
+                  <Typography>wsAPE</Typography> <SvgIcon component={InfoIcon} color="primary" />
                 </Link>
               </div>
             </Grid>
@@ -171,7 +171,7 @@ function Wrap() {
               <div className="stake-top-metrics">
                 <Grid container spacing={2} alignItems="flex-end">
                   <Grid item xs={12} sm={4} md={4} lg={4}>
-                    <div className="wrap-sOHM">
+                    <div className="wrap-sAPE">
                       <Typography variant="h5" color="textSecondary">
                         sAPE Price
                       </Typography>
@@ -186,17 +186,17 @@ function Wrap() {
                         Current Index
                       </Typography>
                       <Typography variant="h4">
-                        {currentIndex ? <>{trim(currentIndex, 1)} OHM</> : <Skeleton width="150px" />}
+                        {currentIndex ? <>{trim(currentIndex, 1)} APE</> : <Skeleton width="150px" />}
                       </Typography>
                     </div>
                   </Grid>
                   <Grid item xs={12} sm={4} md={4} lg={4}>
-                    <div className="wrap-wsOHM">
+                    <div className="wrap-wsAPE">
                       <Typography variant="h5" color="textSecondary">
                         wsAPE Price
                         <InfoTooltip
                           message={
-                            "wsOHM = sOHM * index\n\nThe price of wsOHM is equal to the price of OHM multiplied by the current index"
+                            "wsAPE = sAPE * index\n\nThe price of wsAPE is equal to the price of APE multiplied by the current index"
                           }
                         />
                       </Typography>
@@ -215,7 +215,7 @@ function Wrap() {
                   <div className="wallet-menu" id="wallet-menu">
                     {modalButton}
                   </div>
-                  <Typography variant="h6">Connect your wallet to wrap sOHM</Typography>
+                  <Typography variant="h6">Connect your wallet to wrap sAPE</Typography>
                 </div>
               ) : (
                 <>
@@ -240,9 +240,9 @@ function Wrap() {
                             <Typography variant="body1" className="stake-note" color="textSecondary">
                               {view === 0 && (
                                 <>
-                                  First time wrapping <b>sOHM</b>?
+                                  First time wrapping <b>sAPE</b>?
                                   <br />
-                                  Please approve Olympus Dao to use your <b>sOHM</b> for wrapping.
+                                  Please approve Olympus Dao to use your <b>sAPE</b> for wrapping.
                                 </>
                               )}
                             </Typography>
@@ -283,7 +283,7 @@ function Wrap() {
                               onChangeWrap("wrap");
                             }}
                           >
-                            {txnButtonText(pendingTransactions, "wrapping", "Wrap sOHM")}
+                            {txnButtonText(pendingTransactions, "wrapping", "Wrap sAPE")}
                           </Button>
                         ) : (
                           <Button
@@ -310,7 +310,7 @@ function Wrap() {
                             onChangeWrap("unwrap");
                           }}
                         >
-                          {txnButtonText(pendingTransactions, "unwrapping", "Unwrap sOHM")}
+                          {txnButtonText(pendingTransactions, "unwrapping", "Unwrap sAPE")}
                         </Button>
                       </TabPanel>
                     </Box>
@@ -319,8 +319,8 @@ function Wrap() {
                       <Box padding={1}>
                         <Typography variant="body2" className={classes.textHighlight}>
                           {isUnwrap
-                            ? `Unwrapping ${quantity} wsAPE will result in ${trim(convertedQuantity, 4)} sOHM`
-                            : `Wrapping ${quantity} sAPE will result in ${trim(convertedQuantity, 4)} wsOHM`}
+                            ? `Unwrapping ${quantity} wsAPE will result in ${trim(convertedQuantity, 4)} sAPE`
+                            : `Wrapping ${quantity} sAPE will result in ${trim(convertedQuantity, 4)} wsAPE`}
                         </Typography>
                       </Box>
                     )}
@@ -330,13 +330,13 @@ function Wrap() {
                     <div className="data-row">
                       <Typography variant="body1">Wrappable Balance</Typography>
                       <Typography variant="body1">
-                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(sohmBalance, 4)} sOHM</>}
+                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(sohmBalance, 4)} sAPE</>}
                       </Typography>
                     </div>
                     <div className="data-row">
                       <Typography variant="body1">Unwrappable Balance</Typography>
                       <Typography variant="body1">
-                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(wsohmBalance, 4)} wsOHM</>}
+                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(wsohmBalance, 4)} wsAPE</>}
                       </Typography>
                     </div>
                   </div>

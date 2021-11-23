@@ -136,7 +136,7 @@ msgid "Ligar Wallet"
 msgstr ""
 
 #: src/views/Stake/Stake.jsx:257
-msgid "Ligue a sua wallet para fazer Staking de OHM"
+msgid "Ligue a sua wallet para fazer Staking de APE"
 msgstr ""
 
 #: src/views/Stake/Stake.jsx:235
@@ -161,15 +161,15 @@ msgid "Depositar"
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:162
-msgid "Depositar sOHM"
+msgid "Depositar sAPE"
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:100
-msgid "Deposite sOHM para ganhar! Assim que depositar, vai receber a quantia correspondente de 33T e habilitar-se-á a ganhar até que o seu sOHM seja retirado."
+msgid "Deposite sAPE para ganhar! Assim que depositar, vai receber a quantia correspondente de 33T e habilitar-se-á a ganhar até que o seu sAPE seja retirado."
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:179
-msgid "Depositar {quantity} sOHM vai aumentar a sua probabilidade de ganhar para 1 em {newOdds}"
+msgid "Depositar {quantity} sAPE vai aumentar a sua probabilidade de ganhar para 1 em {newOdds}"
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:112
@@ -257,7 +257,7 @@ msgid "Máximo Que Pode Comprar"
 msgstr ""
 
 #: src/views/Stake/Stake.jsx:183
-msgid "Migrar sOHM!"
+msgid "Migrar sAPE!"
 msgstr ""
 
 #: src/views/Stake/Stake.jsx:436
@@ -273,7 +273,7 @@ msgid "Próximo prémio"
 msgstr ""
 
 #: src/views/ChooseBond/ChooseBond.jsx:101
-msgid "Preço de OHM"
+msgid "Preço de APE"
 msgstr ""
 
 #: src/views/404/NotFound.jsx:14
@@ -388,7 +388,7 @@ msgid "Fazer Staking"
 msgstr ""
 
 #: src/views/Stake/Stake.jsx:338
-msgid "Fazer Staking de OHM"
+msgid "Fazer Staking de APE"
 msgstr ""
 
 #: src/views/Stake/ExternalStakePool.jsx:140
@@ -405,7 +405,7 @@ msgid "Saldo em Staking no Fuse"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:29
-msgid "A fazer Staking de OHM"
+msgid "A fazer Staking de APE"
 msgstr ""
 
 #: src/views/Dashboard/Dashboard.jsx:66
@@ -458,7 +458,7 @@ msgid "Unstaking do Token de Legacy LP"
 msgstr ""
 
 #: src/views/Stake/Stake.jsx:367
-msgid "Unstaking de OHM"
+msgid "Unstaking de APE"
 msgstr ""
 
 #: src/views/Stake/Stake.jsx:389
@@ -466,11 +466,11 @@ msgid "Saldo fora de Staking"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:29
-msgid "A fazer Unstaking de sOHM"
+msgid "A fazer Unstaking de sAPE"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:33
-msgid "A Desembrulhar sOHM"
+msgid "A Desembrulhar sAPE"
 msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:268
@@ -496,7 +496,7 @@ msgid "Retirar Antecipadamente e pagar"
 msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:154
-msgid "Retirar sOHM"
+msgid "Retirar sAPE"
 msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:105
@@ -504,7 +504,7 @@ msgid "Retiradas podem ser feitas assim que o prémio tenha sido atribuído."
 msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:161
-msgid "Retirar {quantity} sOHM reduz a sua probabilidade de ganhar para 1 in {newOdds}"
+msgid "Retirar {quantity} sAPE reduz a sua probabilidade de ganhar para 1 in {newOdds}"
 msgstr ""
 
 #: src/views/Stake/Stake.jsx:425
@@ -512,7 +512,7 @@ msgid "Saldo Embrulhado"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:33
-msgid "A Embrulhar OHM"
+msgid "A Embrulhar APE"
 msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:107
@@ -529,12 +529,12 @@ msgstr ""
 
 #: src/views/Stake/Stake.jsx:119
 #: src/views/Stake/Stake.jsx:119
-msgid "Não pode fazer staking de mais do que o seu saldo em OHM."
+msgid "Não pode fazer staking de mais do que o seu saldo em APE."
 msgstr ""
 
 #: src/views/Stake/Stake.jsx:123
 #: src/views/Stake/Stake.jsx:123
-msgid "Não pode fazer unstaking de mais do que o seu saldo em sOHM."
+msgid "Não pode fazer unstaking de mais do que o seu saldo em sAPE."
 msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:86
@@ -607,11 +607,11 @@ msgid "minutos"
 msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:158
-msgid "Detalhes da Pool de sOHM"
+msgid "Detalhes da Pool de sAPE"
 msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:150
-msgid "Pool de Prémio de sOHM"
+msgid "Pool de Prémio de sAPE"
 msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:160

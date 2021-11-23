@@ -25,7 +25,7 @@ export const MarketCap = () => {
   );
 };
 
-export const OHMPrice = () => {
+export const ApePrice = () => {
   const marketPrice = useSelector(state => state.app.marketPrice);
 
   return (
@@ -50,7 +50,7 @@ export const CircSupply = () => {
   );
 };
 
-export const BackingPerOHM = () => {
+export const BackingPerAPE = () => {
   const backingPerOhm = useSelector(state => state.app.treasuryMarketValue / state.app.circSupply);
 
   return (
@@ -68,14 +68,14 @@ export const CurrentIndex = () => {
     <Metric className="index">
       <Metric.Title>
         Current Index
-        <InfoTooltip message="The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1." />
+        <InfoTooltip message="The current index tracks the amount of sAPE accumulated since the beginning of staking. Basically, how much sAPE one would have if they staked and held a single APE from day 1." />
       </Metric.Title>
-      <Metric.Value>{currentIndex && trim(currentIndex, 2) + " sOHM"}</Metric.Value>
+      <Metric.Value>{currentIndex && trim(currentIndex, 2) + " sAPE"}</Metric.Value>
     </Metric>
   );
 };
 
-export const WSOHMPrice = () => {
+export const WSApePrice = () => {
   const wsOhmPrice = useSelector(state => state.app.marketPrice * state.app.currentIndex);
 
   return (
@@ -84,7 +84,7 @@ export const WSOHMPrice = () => {
         wsAPE Price
         <InfoTooltip
           message={
-            "wsOHM = sOHM * index\n\nThe price of wsOHM is equal to the price of OHM multiplied by the current index"
+            "wsAPE = sAPE * index\n\nThe price of wsAPE is equal to the price of APE multiplied by the current index"
           }
         />
       </Metric.Title>

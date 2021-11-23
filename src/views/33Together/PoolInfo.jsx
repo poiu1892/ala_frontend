@@ -72,7 +72,7 @@ export const PoolInfo = props => {
                 <Typography>
                   <Trans>Your wallet balance</Trans>
                 </Typography>
-                <Typography>{props.isAccountLoading ? <Skeleton width={100} /> : props.sohmBalance} sOHM</Typography>
+                <Typography>{props.isAccountLoading ? <Skeleton width={100} /> : props.sohmBalance} sAPE</Typography>
               </div>
             </Box>
             <Divider color="secondary" />
@@ -91,7 +91,7 @@ export const PoolInfo = props => {
               <Trans>Total Deposits</Trans>
             </Typography>
             <Typography>
-              {props.graphLoading ? <Skeleton width={100} /> : props.totalDeposits.toLocaleString()} sOHM
+              {props.graphLoading ? <Skeleton width={100} /> : props.totalDeposits.toLocaleString()} sAPE
             </Typography>
           </div>
           <div className="data-row">
@@ -99,14 +99,14 @@ export const PoolInfo = props => {
               <Trans>Total Sponsorship</Trans>
             </Typography>
             <Typography>
-              {props.graphLoading ? <Skeleton width={100} /> : props.totalSponsorship.toLocaleString()} sOHM
+              {props.graphLoading ? <Skeleton width={100} /> : props.totalSponsorship.toLocaleString()} sAPE
             </Typography>
           </div>
           <div className="data-row">
             <Typography>
               <Trans>Yield Source</Trans>
             </Typography>
-            <Typography>sOHM</Typography>
+            <Typography>sAPE</Typography>
           </div>
           <div className="data-row">
             <Typography>

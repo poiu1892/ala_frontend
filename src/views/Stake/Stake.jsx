@@ -236,7 +236,7 @@ function Stake() {
                       </Typography>
                       <Typography variant="h4">
                         {currentIndex ? (
-                          <span data-testid="index-value">{trim(currentIndex, 1)} OHM</span>
+                          <span data-testid="index-value">{trim(currentIndex, 1)} APE</span>
                         ) : (
                           <Skeleton width="150px" data-testid="index-loading" />
                         )}
@@ -288,9 +288,9 @@ function Stake() {
                             <Typography variant="body1" className="stake-note" color="textSecondary">
                               {view === 0 ? (
                                 <>
-                                  <Trans>First time staking</Trans> <b>OHM</b>?
+                                  <Trans>First time staking</Trans> <b>APE</b>?
                                   <br />
-                                  <Trans>Please approve Olympus Dao to use your</Trans> <b>OHM</b>{" "}
+                                  <Trans>Please approve Olympus Dao to use your</Trans> <b>APE</b>{" "}
                                   <Trans>for staking</Trans>.
                                 </>
                               ) : (

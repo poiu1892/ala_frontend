@@ -150,7 +150,7 @@ export const PoolWithdraw = props => {
               onClick={() => onWithdraw("withdraw")}
             >
               {exitFee > 0
-                ? txnButtonText(pendingTransactions, "pool_withdraw", t`Withdraw Early & pay` + exitFee + " sOHM")
+                ? txnButtonText(pendingTransactions, "pool_withdraw", t`Withdraw Early & pay` + exitFee + " sAPE")
                 : txnButtonText(pendingTransactions, "pool_withdraw", t`Withdraw sAPE`)}
               {/* Withdraw sAPE */}
             </Button>
@@ -182,7 +182,7 @@ export const PoolWithdraw = props => {
               </Typography>
             </Box>
           )}
-          {/* NOTE (Appleseed): added this bc I kept losing track of which accounts I had sOHM in during testing */}
+          {/* NOTE (Appleseed): added this bc I kept losing track of which accounts I had sAPE in during testing */}
           <div className={`stake-user-data`}>
             <div className="data-row">
               <Typography variant="body1" align="left">
