@@ -175,7 +175,7 @@ msgid "Connect Wallet"
 msgstr "지갑 연결"
 
 #: src/views/Stake/Stake.jsx:257
-msgid "Connect your wallet to stake OHM"
+msgid "Connect your wallet to stake APE"
 msgstr "OHM 스테이크를 위해 지갑 연결"
 
 #: src/views/Stake/Stake.jsx:235

@@ -170,7 +170,7 @@ msgid "Connect Wallet"
 msgstr "Connecter le portefeuille"
 
 #: src/views/Stake/Stake.jsx:257
-msgid "Connect your wallet to stake OHM"
+msgid "Connect your wallet to stake APE"
 msgstr "Connectez votre portefeuille pour déposer des OHM"
 
 #: src/views/Stake/Stake.jsx:235

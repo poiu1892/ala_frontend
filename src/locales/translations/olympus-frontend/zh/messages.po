@@ -136,7 +136,7 @@ msgid "Connect Wallet"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:257
-msgid "Connect your wallet to stake OHM"
+msgid "Connect your wallet to stake APE"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:235

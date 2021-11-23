@@ -93,9 +93,9 @@ function OhmMenu() {
       onMouseLeave={e => handleClick(e)}
       id="ohm-menu-button-hover"
     >
-      <Button id="ohm-menu-button" size="large" variant="contained" color="secondary" title="OHM" aria-describedby={id}>
+      <Button id="ohm-menu-button" size="large" variant="contained" color="secondary" title="APE" aria-describedby={id}>
         <SvgIcon component={InfoIcon} color="primary" />
-        <Typography>OHM</Typography>
+        <Typography>APE</Typography>
       </Button>
 
       <Popper id={id} open={open} anchorEl={anchorEl} placement="bottom-start" transition>
@@ -166,7 +166,7 @@ function OhmMenu() {
                             viewBox="0 0 32 32"
                             style={{ height: "25px", width: "25px" }}
                           />
-                          <Typography variant="body1">OHM</Typography>
+                          <Typography variant="body1">APE</Typography>
                         </Button>
                       )}
                       {SOHM_ADDRESS && (

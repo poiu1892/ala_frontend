@@ -1,6 +1,6 @@
-# [Ω Olympus Frontend](https://app.AlaDAO.finance/)
+# [Ω APEBANK Frontend](https://app.AlaDAO.finance/)
 
-This is the front-end repo for Olympus that allows users be part of the future of Greece.
+This is the front-end repo for APEBANK that allows users be part of the future of Greece.
 
 **_ Note We're currently in the process of switching to TypeScript. Please read this guide on how to use TypeScript for this repository. https://github.com/AlaDAO/aladao-frontend/wiki/TypeScript-Refactor-General-Guidelines _**
 
@@ -30,8 +30,8 @@ Open the source code and start editing!
 
 ## Rinkeby Testing
 
-**Rinkeby faucet for sOHM:**
-[Lives here](https://rinkeby.etherscan.io/address/0x800B3d87b77361F0D1d903246cA1F51b5acb43c9#writeContract), to retrieve test sOHM click `Connect to Web3` and use function #3: `dripSOHM`. After connecting to web3, click `Write` to execute and 10 sOHM will automatically be transferred to your connected wallet.
+**Rinkeby faucet for sAPE:**
+[Lives here](https://rinkeby.etherscan.io/address/0x800B3d87b77361F0D1d903246cA1F51b5acb43c9#writeContract), to retrieve test sAPE click `Connect to Web3` and use function #3: `dripSAPE`. After connecting to web3, click `Write` to execute and 10 sAPE will automatically be transferred to your connected wallet.
 
 Note: The faucet is limited to one transfer per wallet every 6500 blocks (~1 day)
 
@@ -67,9 +67,9 @@ The files/folder structure are a **WIP** and may contain some unused files. The 
 
 ## Application translation
 
-Olympus uses [linguijs](https://github.com/lingui/js-lingui) to manage translation.
+APEBANK uses [linguijs](https://github.com/lingui/js-lingui) to manage translation.
 
-The language files are located in a submodule deployed in `src/locales/translations`. This submodule points to the [olympus translation repository](https://github.com/AlaDAO/olympus-translations)
+The language files are located in a submodule deployed in `src/locales/translations`. This submodule points to the [APEBANK translation repository](https://github.com/AlaDAO/APEBANK-translations)
 
 In order to mark text for translation you can use:
 

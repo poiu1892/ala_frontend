@@ -191,8 +191,8 @@ msgid "Connect Wallet"
 msgstr "Connect Wallet"
 
 #: src/views/Stake/Stake.jsx:257
-msgid "Connect your wallet to stake OHM"
-msgstr "Connect your wallet to stake OHM"
+msgid "Connect your wallet to stake APE"
+msgstr "Connect your wallet to stake APE"
 
 #: src/views/Stake/Stake.jsx:235
 msgid "Current Index"

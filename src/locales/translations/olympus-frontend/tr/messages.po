@@ -167,7 +167,7 @@ msgid "Connect Wallet"
 msgstr "Cüzdanınızı bağlayın"
 
 #: src/views/Stake/Stake.jsx:257
-msgid "Connect your wallet to stake OHM"
+msgid "Connect your wallet to stake APE"
 msgstr "OHM yatırmak için Cüzdanınızı bağlayın"
 
 #: src/views/Stake/Stake.jsx:235
