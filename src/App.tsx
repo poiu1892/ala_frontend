@@ -155,7 +155,7 @@ function App() {
       setWalletChecked(true);
     }
     if (shouldTriggerSafetyCheck()) {
-      dispatch(info("Safety Check: Always verify you're on AlaDAO.io!"));
+      dispatch(info("Safety Check: Always verify you're on APEBANK.io!"));
     }
   }, []);
 
