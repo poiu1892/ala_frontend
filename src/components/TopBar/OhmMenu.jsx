@@ -137,7 +137,7 @@ function OhmMenu() {
                   </Link>
                 </Box>
 
-                <Box component="div" className="data-links">
+                {/* <Box component="div" className="data-links">
                   <Divider color="secondary" className="less-margin" />
                   <Link href={`https://dune.xyz/shadow/Olympus-(OHM)`} target="_blank" rel="noreferrer">
                     <Button size="large" variant="contained" color="secondary" fullWidth>
@@ -146,7 +146,7 @@ function OhmMenu() {
                       </Typography>
                     </Button>
                   </Link>
-                </Box>
+                </Box> */}
 
                 {isEthereumAPIAvailable ? (
                   <Box className="add-tokens">
