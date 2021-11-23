@@ -119,7 +119,7 @@
     "Something not right, fren? Check Pool Together's UI below.":
       "무언가 맞지 않나요? 아래 풀 투게더의 UI를 통해서 다시 확인해보세요",
     Stake: "스테이크",
-    "Stake OHM": "OHM 스테이크",
+    "Stake APE": "OHM 스테이크",
     "Stake in Crucible": "Crucible에 스테이크",
     "Staked Balance": "스테이크 된 잔고",
     "Staked Balance in Fuse": "퓨즈에 스테이크 된 잔고",
@@ -140,7 +140,7 @@
     Unstake: "언스테이크",
     "Unstake LP Token": "LP 토큰 언스테이크",
     "Unstake Legacy LP Token": "지난 LP 토큰 언스테이크",
-    "Unstake OHM": "OHM 언스테이크",
+    "UnStake APE": "OHM 언스테이크",
     "Unstaked Balance": "언스테이크 된 잔고",
     "Unstaking sOHM": "sOHM 언스테이킹",
     "Unwrapping sOHM": "sOHM 래핑하기",

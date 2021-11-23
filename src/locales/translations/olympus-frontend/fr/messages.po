@@ -454,7 +454,7 @@ msgid "Stake"
 msgstr "Dépôts (Staking)"
 
 #: src/views/Stake/Stake.jsx:344
-msgid "Stake OHM"
+msgid "Stake APE"
 msgstr "Déposer des OHM"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
@@ -549,7 +549,7 @@ msgid "Unstake Legacy LP Token"
 msgstr "Retirer ses Token LP"
 
 #: src/views/Stake/Stake.jsx:373
-msgid "Unstake OHM"
+msgid "UnStake APE"
 msgstr "Retirer vos OHM"
 
 #: src/views/Stake/Stake.jsx:395

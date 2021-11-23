@@ -388,7 +388,7 @@ msgid "Stake"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:344
-msgid "Stake OHM"
+msgid "Stake APE"
 msgstr ""
 
 #: src/views/Stake/ExternalStakePool.jsx:140
@@ -458,7 +458,7 @@ msgid "Unstake Legacy LP Token"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:373
-msgid "Unstake OHM"
+msgid "UnStake APE"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:395

@@ -121,7 +121,7 @@
     "Something not right, fren? Check Pool Together's UI below.":
       "Quelque chose ne va pas ami? Vérifie sur le site Pool Together.",
     Stake: "Dépôts (Staking)",
-    "Stake OHM": "Déposer des OHM",
+    "Stake APE": "Déposer des OHM",
     "Stake in Crucible": "Déposer dans Crucible",
     "Stake on Crucible": "Déposer sur Crucible",
     "Staked Balance": "Staked Balance",
@@ -149,7 +149,7 @@
     Unstake: "Retirer",
     "Unstake LP Token": "Retirer ses Token LP",
     "Unstake Legacy LP Token": "Retirer ses Token LP",
-    "Unstake OHM": "Retirer vos OHM",
+    "UnStake APE": "Retirer vos OHM",
     "Unstaked Balance": "Unstaked Balance",
     "Unstaking sOHM": "Retirer sOHM",
     "Unwrapping sOHM": "Unwrapping sOHM",

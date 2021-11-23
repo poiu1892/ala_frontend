@@ -120,7 +120,7 @@ function Stake() {
     }
 
     if (action === "unstake" && gweiValue.gt(ethers.utils.parseUnits(sohmBalance, "gwei"))) {
-      return dispatch(error(t`You cannot unstake more than your sOHM balance.`));
+      return dispatch(error(t`You cannot unstake more than your sAPE balance.`));
     }
 
     await dispatch(changeStake({ address, action, value: quantity.toString(), provider, networkID: chainID }));
@@ -180,7 +180,7 @@ function Stake() {
                   >
                     <NewReleases viewBox="0 0 24 24" />
                     <Typography>
-                      <Trans>Migrate sOHM!</Trans>
+                      <Trans>Migrate sAPE!</Trans>
                     </Typography>
                   </Link>
                 )}
@@ -295,9 +295,9 @@ function Stake() {
                                 </>
                               ) : (
                                 <>
-                                  <Trans>First time unstaking</Trans> <b>sOHM</b>?
+                                  <Trans>First time unstaking</Trans> <b>sAPE</b>?
                                   <br />
-                                  <Trans>Please approve Olympus Dao to use your</Trans> <b>sOHM</b>{" "}
+                                  <Trans>Please approve Olympus Dao to use your</Trans> <b>sAPE</b>{" "}
                                   <Trans>for unstaking</Trans>.
                                 </>
                               )}
@@ -341,7 +341,7 @@ function Stake() {
                               onChangeStake("stake");
                             }}
                           >
-                            {txnButtonText(pendingTransactions, "staking", t`Stake OHM`)}
+                            {txnButtonText(pendingTransactions, "staking", t`Stake APE`)}
                           </Button>
                         ) : (
                           <Button
@@ -370,7 +370,7 @@ function Stake() {
                               onChangeStake("unstake");
                             }}
                           >
-                            {txnButtonText(pendingTransactions, "unstaking", t`Unstake OHM`)}
+                            {txnButtonText(pendingTransactions, "unstaking", t`UnStake APE`)}
                           </Button>
                         ) : (
                           <Button
@@ -395,7 +395,7 @@ function Stake() {
                         <Trans>Unstaked Balance</Trans>
                       </Typography>
                       <Typography variant="body1" id="user-balance">
-                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(ohmBalance, 4)} OHM</>}
+                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(ohmBalance, 4)} APE</>}
                       </Typography>
                     </div>
 
@@ -404,7 +404,7 @@ function Stake() {
                         <Trans>Staked Balance</Trans>
                       </Typography>
                       <Typography variant="body1" id="user-staked-balance">
-                        {isAppLoading ? <Skeleton width="80px" /> : <>{trimmedBalance} sOHM</>}
+                        {isAppLoading ? <Skeleton width="80px" /> : <>{trimmedBalance} sAPE</>}
                       </Typography>
                     </div>
 
@@ -413,7 +413,7 @@ function Stake() {
                         <Trans>Single Staking</Trans>
                       </Typography>
                       <Typography variant="body2" color="textSecondary">
-                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(sohmBalance, 4)} sOHM</>}
+                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(sohmBalance, 4)} sAPE</>}
                       </Typography>
                     </div>
 
@@ -422,7 +422,7 @@ function Stake() {
                         <Trans>Staked Balance in Fuse</Trans>
                       </Typography>
                       <Typography variant="body2" color="textSecondary">
-                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(fsohmBalance, 4)} fsOHM</>}
+                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(fsohmBalance, 4)} fsAPE</>}
                       </Typography>
                     </div>
 
@@ -431,7 +431,7 @@ function Stake() {
                         <Trans>Wrapped Balance</Trans>
                       </Typography>
                       <Typography variant="body2" color="textSecondary">
-                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(wsohmBalance, 4)} wsOHM</>}
+                        {isAppLoading ? <Skeleton width="80px" /> : <>{trim(wsohmBalance, 4)} wsAPE</>}
                       </Typography>
                     </div>
 
@@ -442,7 +442,7 @@ function Stake() {
                         <Trans>Next Reward Amount</Trans>
                       </Typography>
                       <Typography variant="body1">
-                        {isAppLoading ? <Skeleton width="80px" /> : <>{nextRewardValue} sOHM</>}
+                        {isAppLoading ? <Skeleton width="80px" /> : <>{nextRewardValue} sAPE</>}
                       </Typography>
                     </div>
 

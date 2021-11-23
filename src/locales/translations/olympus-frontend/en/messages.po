@@ -475,8 +475,8 @@ msgid "Stake"
 msgstr "Stake"
 
 #: src/views/Stake/Stake.jsx:344
-msgid "Stake OHM"
-msgstr "Stake OHM"
+msgid "Stake APE"
+msgstr "Stake APE"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
 #: src/views/Stake/ExternalStakePool.jsx:205
@@ -570,8 +570,8 @@ msgid "Unstake Legacy LP Token"
 msgstr "Unstake Legacy LP Token"
 
 #: src/views/Stake/Stake.jsx:373
-msgid "Unstake OHM"
-msgstr "Unstake OHM"
+msgid "UnStake APE"
+msgstr "UnStake APE"
 
 #: src/views/Stake/Stake.jsx:395
 msgid "Unstaked Balance"

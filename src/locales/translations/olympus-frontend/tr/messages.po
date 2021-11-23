@@ -443,7 +443,7 @@ msgid "Stake"
 msgstr "Yatır"
 
 #: src/views/Stake/Stake.jsx:344
-msgid "Stake OHM"
+msgid "Stake APE"
 msgstr "OHM yatır"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
@@ -517,7 +517,7 @@ msgid "Unstake Legacy LP Token"
 msgstr "Eski LP Token'larınızı çekmek"
 
 #: src/views/Stake/Stake.jsx:373
-msgid "Unstake OHM"
+msgid "UnStake APE"
 msgstr "OHM çek"
 
 #: src/views/Stake/Stake.jsx:395

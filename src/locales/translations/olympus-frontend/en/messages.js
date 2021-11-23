@@ -125,7 +125,7 @@
     "Something not right, fren? Check Pool Together's UI below.":
       "Something not right, fren? Check Pool Together's UI below.",
     Stake: "Stake",
-    "Stake OHM": "Stake OHM",
+    "Stake APE": "Stake APE",
     "Stake in Crucible": "Stake in Crucible",
     "Stake on Crucible": "Stake on Crucible",
     "Staked Balance": "Staked Balance",
@@ -153,7 +153,7 @@
     Unstake: "Unstake",
     "Unstake LP Token": "Unstake LP Token",
     "Unstake Legacy LP Token": "Unstake Legacy LP Token",
-    "Unstake OHM": "Unstake OHM",
+    "UnStake APE": "UnStake APE",
     "Unstaked Balance": "Unstaked Balance",
     "Unstaking sOHM": "Unstaking sOHM",
     "Unwrapping sOHM": "Unwrapping sOHM",

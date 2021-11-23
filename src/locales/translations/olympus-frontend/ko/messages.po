@@ -459,7 +459,7 @@ msgid "Stake"
 msgstr "스테이크"
 
 #: src/views/Stake/Stake.jsx:344
-msgid "Stake OHM"
+msgid "Stake APE"
 msgstr "OHM 스테이크"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
@@ -537,7 +537,7 @@ msgid "Unstake Legacy LP Token"
 msgstr "지난 LP 토큰 언스테이크"
 
 #: src/views/Stake/Stake.jsx:373
-msgid "Unstake OHM"
+msgid "UnStake APE"
 msgstr "OHM 언스테이크"
 
 #: src/views/Stake/Stake.jsx:395

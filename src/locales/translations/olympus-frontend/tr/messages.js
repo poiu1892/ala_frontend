@@ -113,7 +113,7 @@
     "Something not right, fren? Check Pool Together's UI below.":
       "Detaylar için Pool Together arayüzüne gözatabilirsiniz.",
     Stake: "Yatır",
-    "Stake OHM": "OHM yatır",
+    "Stake APE": "OHM yatır",
     "Stake in Crucible": "Crucible'da yatır",
     "Staked Balance": "Staked Balance",
     "Staked Balance in Fuse": "Staked Balance in Fuse",
@@ -133,7 +133,7 @@
     "Treasury Balance": "Hazine Bakiyesi",
     Unstake: "Çek",
     "Unstake Legacy LP Token": "Eski LP Token'larınızı çekmek",
-    "Unstake OHM": "OHM çek",
+    "UnStake APE": "OHM çek",
     "Unstaked Balance": "Unstaked Balance",
     "Unstaking sOHM": "sOHM çekiliyor",
     "Unwrapping sOHM": "Unwrapping sOHM",
