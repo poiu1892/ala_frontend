@@ -151,15 +151,15 @@ export const PoolWithdraw = props => {
             >
               {exitFee > 0
                 ? txnButtonText(pendingTransactions, "pool_withdraw", t`Withdraw Early & pay` + exitFee + " sOHM")
-                : txnButtonText(pendingTransactions, "pool_withdraw", t`Withdraw sOHM`)}
-              {/* Withdraw sOHM */}
+                : txnButtonText(pendingTransactions, "pool_withdraw", t`Withdraw sAPE`)}
+              {/* Withdraw sAPE */}
             </Button>
           </Box>
           {newOdds > 0 && quantity > 0 && (
             <Box padding={1}>
               <Typography color="error" variant="body2">
                 <Trans>
-                  Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}
+                  Withdrawing {quantity} sAPE reduces your odds of winning to 1 in {newOdds}
                 </Trans>
                 &nbsp;
               </Typography>

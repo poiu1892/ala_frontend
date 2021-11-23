@@ -69,8 +69,8 @@ msgid "Award period has finished, you can navigate to Pool Together's UI to comp
 msgstr "어워드 기간이 끝났습니다. 이제 풀의 UI를 통해 배분을 마칠 수 있습니다."
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:147
-#~ msgid "Backing per OHM"
-#~ msgstr "OHM 당 지지 자산"
+#~ msgid "Backing per APE"
+#~ msgstr "APE 당 지지 자산"
 
 #: src/views/Stake/ExternalStakePool.jsx:93
 #: src/views/Stake/ExternalStakePool.jsx:189
@@ -176,7 +176,7 @@ msgstr "지갑 연결"
 
 #: src/views/Stake/Stake.jsx:257
 msgid "Connect your wallet to stake APE"
-msgstr "OHM 스테이크를 위해 지갑 연결"
+msgstr "APE 스테이크를 위해 지갑 연결"
 
 #: src/views/Stake/Stake.jsx:235
 msgid "Current Index"
@@ -200,16 +200,16 @@ msgid "Deposit"
 msgstr "예치"
 
 #: src/views/33Together/PoolDeposit.jsx:162
-msgid "Deposit sOHM"
-msgstr "sOHM 예치"
+msgid "Deposit sAPE"
+msgstr "sAPE 예치"
 
 #: src/views/33Together/PoolDeposit.jsx:100
-msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
-msgstr "우승하기 위해 sOHM을 예치하세요! 한 번 예치되고 나면, 상응하는 33T를 받게 되고 출금 전 까지 게임에 참여하게 됩니다."
+msgid "Deposit sAPE to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sAPE is withdrawn."
+msgstr "우승하기 위해 sAPE을 예치하세요! 한 번 예치되고 나면, 상응하는 33T를 받게 되고 출금 전 까지 게임에 참여하게 됩니다."
 
 #: src/views/33Together/PoolDeposit.jsx:179
-msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
-msgstr "{quantity} 만큼의 sOHM을 예치하면 {newOdds} 분의 1 만큼 우승 배당률이 상승합니다. "
+msgid "Depositing {quantity} sAPE will increase odds of winning to 1 in {newOdds}"
+msgstr "{quantity} 만큼의 sAPE을 예치하면 {newOdds} 분의 1 만큼 우승 배당률이 상승합니다. "
 
 #: src/views/33Together/PoolDeposit.jsx:112
 msgid "Deposits can be made once the prize has been awarded."
@@ -304,8 +304,8 @@ msgid "Max You Can Buy"
 msgstr "구입 가능한 최대"
 
 #: src/views/Stake/Stake.jsx:183
-msgid "Migrate sOHM!"
-msgstr "sOHM 마이그레이트 하세요!"
+msgid "Migrate sAPE!"
+msgstr "sAPE 마이그레이트 하세요!"
 
 #: src/views/Stake/Stake.jsx:442
 msgid "Next Reward Amount"
@@ -328,12 +328,12 @@ msgstr "다음 어워드"
 #~ msgstr "알림: \"기능 승인\" 트랜젝션은 최초 스테이킹/언스테이킹시에만 필요로 합니다; 이후 스테이킹/언스테이킹시에는 \"스테이크\" 또는 \"언스테이크\" 트랜젝션만 수행하면 됩니다."
 
 #: src/views/ChooseBond/ChooseBond.jsx:101
-msgid "OHM Price"
-msgstr "OHM 가격"
+msgid "APE Price"
+msgstr "APE 가격"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:286
-#~ msgid "OHM Staked"
-#~ msgstr "스테이크된 OHM"
+#~ msgid "APE Staked"
+#~ msgstr "스테이크된 APE"
 
 #: src/views/404/NotFound.jsx:14
 msgid "Page not found"
@@ -393,8 +393,8 @@ msgid "Prize is being awarded"
 msgstr "상금이 지급중 입니다."
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:248
-#~ msgid "Protocol Owned Liquidity OHM-DAI"
-#~ msgstr "프로토콜 소유 유동성 OHM-DAI"
+#~ msgid "Protocol Owned Liquidity APE-DAI"
+#~ msgstr "프로토콜 소유 유동성 APE-DAI"
 
 #: src/views/ChooseBond/BondRow.jsx:55
 #: src/views/ChooseBond/ChooseBond.jsx:126
@@ -460,7 +460,7 @@ msgstr "스테이크"
 
 #: src/views/Stake/Stake.jsx:344
 msgid "Stake APE"
-msgstr "OHM 스테이크"
+msgstr "APE 스테이크"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
 #: src/views/Stake/ExternalStakePool.jsx:205
@@ -476,8 +476,8 @@ msgid "Staked Balance in Fuse"
 msgstr "퓨즈에 스테이크 된 잔고"
 
 #: src/slices/PendingTxnsSlice.ts:29
-msgid "Staking OHM"
-msgstr "스테이킹 중인 OHM"
+msgid "Staking APE"
+msgstr "스테이킹 중인 APE"
 
 #: src/views/Dashboard/Dashboard.jsx:66
 msgid "Supply (circulating/total)"
@@ -489,8 +489,8 @@ msgid "TVD"
 msgstr "TVD"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:158
-#~ msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
-#~ msgstr "현재 인덱스는 가장 최초 스테이킹 시점부터 sOHM이 얼만큼 누적되었는지를 추적합니다. 기본적으로, 첫 날에 1개의 OHM을 스테이킹 했을 경우 현재 얼만큼의 sOHM이 되었는지를 보여줍니다."
+#~ msgid "The current index tracks the amount of sAPE accumulated since the beginning of staking. Basically, how much sAPE one would have if they staked and held a single APE from day 1."
+#~ msgstr "현재 인덱스는 가장 최초 스테이킹 시점부터 sAPE이 얼만큼 누적되었는지를 추적합니다. 기본적으로, 첫 날에 1개의 APE을 스테이킹 했을 경우 현재 얼만큼의 sAPE이 되었는지를 보여줍니다."
 
 #: src/views/33Together/PoolDeposit.jsx:109
 msgid "This Prize Pool is unable to accept deposits at this time."
@@ -538,19 +538,19 @@ msgstr "지난 LP 토큰 언스테이크"
 
 #: src/views/Stake/Stake.jsx:373
 msgid "UnStake APE"
-msgstr "OHM 언스테이크"
+msgstr "APE 언스테이크"
 
 #: src/views/Stake/Stake.jsx:395
 msgid "Unstaked Balance"
 msgstr "언스테이크 된 잔고"
 
 #: src/slices/PendingTxnsSlice.ts:29
-msgid "Unstaking sOHM"
-msgstr "sOHM 언스테이킹"
+msgid "Unstaking sAPE"
+msgstr "sAPE 언스테이킹"
 
 #: src/slices/PendingTxnsSlice.ts:33
-msgid "Unwrapping sOHM"
-msgstr "sOHM 래핑하기"
+msgid "Unwrapping sAPE"
+msgstr "sAPE 래핑하기"
 
 #: src/views/Bond/BondPurchase.jsx:268
 #: src/views/Bond/BondRedeem.jsx:137
@@ -575,24 +575,24 @@ msgid "Withdraw Early & pay"
 msgstr "초기 출금하고 지불하기"
 
 #: src/views/33Together/PoolWithdraw.jsx:154
-msgid "Withdraw sOHM"
-msgstr "sOHM 출금"
+msgid "Withdraw sAPE"
+msgstr "sAPE 출금"
 
 #: src/views/33Together/PoolWithdraw.jsx:105
 msgid "Withdrawals can be made once the prize has been awarded."
 msgstr "상금이 지급된 후 출금할 수 있습니다."
 
 #: src/views/33Together/PoolWithdraw.jsx:161
-msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
-msgstr "{quantity} sOHM을 출금하면 우승 배당률이 {newOdds}분의 1로 줄어듭니다."
+msgid "Withdrawing {quantity} sAPE reduces your odds of winning to 1 in {newOdds}"
+msgstr "{quantity} sAPE을 출금하면 우승 배당률이 {newOdds}분의 1로 줄어듭니다."
 
 #: src/views/Stake/Stake.jsx:431
 msgid "Wrapped Balance"
 msgstr "래핑된 잔고"
 
 #: src/slices/PendingTxnsSlice.ts:33
-msgid "Wrapping OHM"
-msgstr "OHM 래핑하기"
+msgid "Wrapping APE"
+msgstr "APE 래핑하기"
 
 #: src/views/33Together/PoolInfo.jsx:107
 msgid "Yield Source"
@@ -608,13 +608,13 @@ msgstr "예치된 잔고를 언제든 출금할 수 있습니다. 잔고를 출�
 
 #: src/views/Stake/Stake.jsx:119
 #: src/views/Stake/Stake.jsx:119
-msgid "You cannot stake more than your OHM balance."
-msgstr "OHM 잔고 보다 더 많은 양을 스테이크 할 수 없습니다."
+msgid "You cannot stake more than your APE balance."
+msgstr "APE 잔고 보다 더 많은 양을 스테이크 할 수 없습니다."
 
 #: src/views/Stake/Stake.jsx:123
 #: src/views/Stake/Stake.jsx:123
-msgid "You cannot unstake more than your sOHM balance."
-msgstr "sOHM 잔고 보다 더 많은 양을 언스테이크 할 수 없습니다."
+msgid "You cannot unstake more than your sAPE balance."
+msgstr "sAPE 잔고 보다 더 많은 양을 언스테이크 할 수 없습니다."
 
 #: src/views/33Together/PoolWithdraw.jsx:86
 msgid "You cannot withdraw more than your pool balance"
@@ -692,12 +692,12 @@ msgid "min"
 msgstr "분"
 
 #: src/views/33Together/PoolInfo.jsx:158
-msgid "sOHM Pool Details"
-msgstr "sOHM 풀 정보"
+msgid "sAPE Pool Details"
+msgstr "sAPE 풀 정보"
 
 #: src/views/33Together/PoolInfo.jsx:150
-msgid "sOHM Prize Pool"
-msgstr "sOHM 상금 풀"
+msgid "sAPE Prize Pool"
+msgstr "sAPE 상금 풀"
 
 #: src/views/33Together/PoolPrize.jsx:160
 msgid "sec"

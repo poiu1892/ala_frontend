@@ -167,15 +167,15 @@ msgid "Deposit"
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:162
-msgid "Deposit sOHM"
+msgid "Deposit sAPE"
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:100
-msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
+msgid "Deposit sAPE to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sAPE is withdrawn."
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:179
-msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
+msgid "Depositing {quantity} sAPE will increase odds of winning to 1 in {newOdds}"
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:112
@@ -263,7 +263,7 @@ msgid "Max You Can Buy"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:183
-msgid "Migrate sOHM!"
+msgid "Migrate sAPE!"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:442
@@ -279,7 +279,7 @@ msgid "Next award"
 msgstr ""
 
 #: src/views/ChooseBond/ChooseBond.tsx:102
-msgid "OHM Price"
+msgid "APE Price"
 msgstr ""
 
 #: src/views/404/NotFound.tsx:14
@@ -411,7 +411,7 @@ msgid "Staked Balance in Fuse"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:29
-msgid "Staking OHM"
+msgid "Staking APE"
 msgstr ""
 
 #: src/views/Dashboard/Dashboard.jsx:66
@@ -472,11 +472,11 @@ msgid "Unstaked Balance"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:29
-msgid "Unstaking sOHM"
+msgid "Unstaking sAPE"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:33
-msgid "Unwrapping sOHM"
+msgid "Unwrapping sAPE"
 msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:268
@@ -502,7 +502,7 @@ msgid "Withdraw Early & pay"
 msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:154
-msgid "Withdraw sOHM"
+msgid "Withdraw sAPE"
 msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:105
@@ -510,7 +510,7 @@ msgid "Withdrawals can be made once the prize has been awarded."
 msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:161
-msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
+msgid "Withdrawing {quantity} sAPE reduces your odds of winning to 1 in {newOdds}"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:431
@@ -518,7 +518,7 @@ msgid "Wrapped Balance"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:33
-msgid "Wrapping OHM"
+msgid "Wrapping APE"
 msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:107
@@ -535,12 +535,12 @@ msgstr ""
 
 #: src/views/Stake/Stake.tsx:119
 #: src/views/Stake/Stake.tsx:119
-msgid "You cannot stake more than your OHM balance."
+msgid "You cannot stake more than your APE balance."
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:123
 #: src/views/Stake/Stake.tsx:123
-msgid "You cannot unstake more than your sOHM balance."
+msgid "You cannot unstake more than your sAPE balance."
 msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:86
@@ -615,11 +615,11 @@ msgid "min"
 msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:158
-msgid "sOHM Pool Details"
+msgid "sAPE Pool Details"
 msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:150
-msgid "sOHM Prize Pool"
+msgid "sAPE Prize Pool"
 msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:160

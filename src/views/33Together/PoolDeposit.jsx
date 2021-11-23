@@ -97,7 +97,7 @@ export const PoolDeposit = props => {
 
   useEffect(() => {
     props.setInfoTooltipMessage([
-      t`Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn.`,
+      t`Deposit sAPE to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sAPE is withdrawn.`,
     ]);
   }, []);
 
@@ -159,7 +159,7 @@ export const PoolDeposit = props => {
                 onClick={() => onDeposit("deposit")}
                 fullWidth
               >
-                {txnButtonText(pendingTransactions, "pool_deposit", t`Deposit sOHM`)}
+                {txnButtonText(pendingTransactions, "pool_deposit", t`Deposit sAPE`)}
               </Button>
             ) : (
               <Button
@@ -177,7 +177,7 @@ export const PoolDeposit = props => {
             <Box padding={1}>
               <Typography variant="body2" style={{ color: "#33BB33" }}>
                 <Trans>
-                  Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}
+                  Depositing {quantity} sAPE will increase odds of winning to 1 in {newOdds}
                 </Trans>
                 &nbsp;
               </Typography>

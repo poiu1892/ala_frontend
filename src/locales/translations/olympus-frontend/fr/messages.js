@@ -16,7 +16,7 @@
       "La période de récompense est terminée. Vous pouvez visiter Pool Together pour commencer la distribution",
     "Award period has finished, you can navigate to Pool Together's UI to complete distribution":
       "La période de récompense est terminée. Vous pouvez visiter Pool Together pour terminer la distribution",
-    "Backing per OHM": "Réserve par OHM",
+    "Backing per APE": "Réserve par APE",
     Balance: "Solde",
     Bond: "Obligations",
     "Bond Price": "Prix de l'obligation",
@@ -41,19 +41,19 @@
       "Cliquez sur 'Récompenser' pour démarrer la distribution",
     "Coming Soon": "Disponible prochainement",
     "Connect Wallet": "Connecter le portefeuille",
-    "Connect your wallet to stake APE": "Connectez votre portefeuille pour déposer des OHM",
+    "Connect your wallet to stake APE": "Connectez votre portefeuille pour déposer des APE",
     "Current Index": "Indice actuel",
     "Current Prize": "Récompense actuelle",
     Dashboard: "Tableau de bord",
     "Debt Ratio": "Taux d'endettement",
     Deposit: "Déposer",
-    "Deposit sOHM": "Déposer sOHM",
-    "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn.":
-      "Deposez des sOHM pour gagner! Une fois déposés, vous recevrez une quantité équivalente de 33T et serrez susceptible de gagner jusqu'à ce que vous retiriez vos sOHM.",
-    "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}": [
+    "Deposit sAPE": "Déposer sAPE",
+    "Deposit sAPE to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sAPE is withdrawn.":
+      "Deposez des sAPE pour gagner! Une fois déposés, vous recevrez une quantité équivalente de 33T et serrez susceptible de gagner jusqu'à ce que vous retiriez vos sAPE.",
+    "Depositing {quantity} sAPE will increase odds of winning to 1 in {newOdds}": [
       "Deposer ",
       ["quantity"],
-      " sOHM augmentera vos chances de gagner à 1 sur ",
+      " sAPE augmentera vos chances de gagner à 1 sur ",
       ["newOdds"],
     ],
     "Deposits can be made once the prize has been awarded.":
@@ -83,7 +83,7 @@
     "Market Value of Treasury Assets": "Valeur de marché des actifs en trésorerie",
     Max: "Max",
     "Max You Can Buy": "Maximum que vous pouvez acheter",
-    "Migrate sOHM!": "Migrez vos sOHM",
+    "Migrate sAPE!": "Migrez vos sAPE",
     "Next Reward Amount": "Montant de la prochaine récompense",
     "Next Reward Yield": "Pourcentage de gain de la prochaine récompense",
     "Next award": "Prochaine récompense",
@@ -91,8 +91,8 @@
       'Note: La transaction "Approuver" n\'est nécessaire que pour le premier achat; Les achats suivants ne nécessitent que la transaction "Acheter".',
     'Note: The "Approve" transaction is only needed when staking/unstaking for the first time; subsequent staking/unstaking only requires you to perform the "Stake" or "Unstake" transaction.':
       'Note: La transaction "Approuver" n\'est nécessaire que pour le premier dépôt/retrait; Les achats suivants ne nécessitent que la transaction "Acheter".',
-    "OHM Price": "Valeur de OHM",
-    "OHM Staked": "OHM en dépôt",
+    "APE Price": "Valeur de APE",
+    "APE Staked": "APE en dépôt",
     "Page not found": "Page non trouvée",
     Pending: "En attente",
     "Pending Rewards": "Récompenses en attente",
@@ -105,7 +105,7 @@
     Price: "Prix",
     "Prize Pool Info": "Information concernant la cagnote",
     "Prize is being awarded": "La récompense est en cours de distribution",
-    "Protocol Owned Liquidity OHM-DAI": "Liquidité OHM-DAI dont le protocol est propriétaire",
+    "Protocol Owned Liquidity APE-DAI": "Liquidité APE-DAI dont le protocol est propriétaire",
     Purchased: "Acheté",
     ROI: "ROI",
     "ROI (5-Day Rate)": "ROI (Sur 5 jours)",
@@ -121,17 +121,17 @@
     "Something not right, fren? Check Pool Together's UI below.":
       "Quelque chose ne va pas ami? Vérifie sur le site Pool Together.",
     Stake: "Dépôts (Staking)",
-    "Stake APE": "Déposer des OHM",
+    "Stake APE": "Déposer des APE",
     "Stake in Crucible": "Déposer dans Crucible",
     "Stake on Crucible": "Déposer sur Crucible",
     "Staked Balance": "Staked Balance",
     "Staked Balance in Fuse": "Staked Balance in Fuse",
-    "Staking OHM": "Déposer OHM",
+    "Staking APE": "Déposer APE",
     "Start Award": "Démarrer la distribution des récompenses",
     "Supply (circulating/total)": "Nombre de jetons (en circulation/total)",
     TVD: "TVD",
-    "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1.":
-      "L'indice courant track la quantité de sOHM accumulée depuis le début des dépôts. C'est à dire la quantité d'OHM obtenue par un individu ayant déposer 1 OHM au premier epoch.",
+    "The current index tracks the amount of sAPE accumulated since the beginning of staking. Basically, how much sAPE one would have if they staked and held a single APE from day 1.":
+      "L'indice courant track la quantité de sAPE accumulée depuis le début des dépôts. C'est à dire la quantité d'APE obtenue par un individu ayant déposer 1 APE au premier epoch.",
     "The random number generator has timed out. You must cancel the awarding process to unlock users funds users funds and start the awarding process again.":
       "Le générateur de nombre aléatoire a excédé sondélai d'exécution maximum. Vous devez stopper le processus de distribution des récompenses afin de libérer les fonds des participants et démarrer un nouveau processus de distribution des récompenses.",
     "This Prize Pool is unable to accept deposits at this time.":
@@ -149,35 +149,35 @@
     Unstake: "Retirer",
     "Unstake LP Token": "Retirer ses Token LP",
     "Unstake Legacy LP Token": "Retirer ses Token LP",
-    "UnStake APE": "Retirer vos OHM",
+    "UnStake APE": "Retirer vos APE",
     "Unstaked Balance": "Unstaked Balance",
-    "Unstaking sOHM": "Retirer sOHM",
-    "Unwrapping sOHM": "Unwrapping sOHM",
+    "Unstaking sAPE": "Retirer sAPE",
+    "Unwrapping sAPE": "Unwrapping sAPE",
     "Vesting Term": "Date de livraison",
     "View Contract": "Voir le contrat",
     "Winners / prize period": "Gagnants / période de distribution",
     Withdraw: "Retirer",
     "Withdraw Early & pay": "Retirer prématurément & payer",
-    "Withdraw sOHM": "Retirer sOHM",
+    "Withdraw sAPE": "Retirer sAPE",
     "Withdrawals can be made once the prize has been awarded.":
       "Les retraits peuvent être effectués après la distribution de la cagnote",
-    "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}": [
+    "Withdrawing {quantity} sAPE reduces your odds of winning to 1 in {newOdds}": [
       "Retirer ",
       ["quantity"],
-      " sOHM réduit vos chances de gagner à  1 sur ",
+      " sAPE réduit vos chances de gagner à  1 sur ",
       ["newOdds"],
     ],
     "Wrapped Balance": "Wrapped Balance",
-    "Wrapping OHM": "Wrapping OHM",
+    "Wrapping APE": "Wrapping APE",
     "Yield Source": "Source de profit",
     "You Will Get": "Vous obtiendrez",
     "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating / reducing the chance to win the prize in this pool in future prize periods":
       "Vous pouvez choisir de retirer les fonds déposés à votre discrétion. En retirant vos fonds vous supprimez / réduisez vos chances de gagner cette cagnote lors des prochaines périodes de distribution",
     "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods":
       "You can choose to withdraw the deposited fund at any time. By withdrawing the fund, you are eliminating reducing the chance to win the prize in this pool in future prize periods",
-    "You cannot stake more than your OHM balance.": "Vous ne pouvez pas déposer plus d'OHM que votre solde",
-    "You cannot unstake more than your sOHM balance.":
-      "Vous ne pouvez pas retirer plus de sOHM que vous n'en avez en dépôt",
+    "You cannot stake more than your APE balance.": "Vous ne pouvez pas déposer plus d'APE que votre solde",
+    "You cannot unstake more than your sAPE balance.":
+      "Vous ne pouvez pas retirer plus de sAPE que vous n'en avez en dépôt",
     "You cannot withdraw more than your pool balance": "Vous ne pouvez pas retirer plus ce que ce que vous avez déposé",
     "You have an existing bond. Bonding will reset your vesting period and forfeit rewards. We recommend claiming rewards first or using a fresh wallet. Do you still want to proceed?":
       "Vous avez déjà une obligation. En acquérir une autre réinitialisera la durée de livraison. Nous vous recommendons de prendre livraison de vos récompenses ou d'utiliser un autre portefeuille. Souhaitez-vous vraiment continuer?",
@@ -197,8 +197,8 @@
     "for unstaking": "for unstaking",
     hrs: "hrs",
     min: "mins",
-    "sOHM Pool Details": "Détails de la cagnote sOHM",
-    "sOHM Prize Pool": "Taille de la cagnote sOHM",
+    "sAPE Pool Details": "Détails de la cagnote sAPE",
+    "sAPE Prize Pool": "Taille de la cagnote sAPE",
     sec: "secs",
     "to next rebase": "jusqu'au prochain changement de base",
   },

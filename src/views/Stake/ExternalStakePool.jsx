@@ -21,6 +21,7 @@ import { Skeleton } from "@material-ui/lab";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import BondLogo from "../../components/BondLogo";
 import { ReactComponent as OhmLusdImg } from "src/assets/tokens/OHM-LUSD.svg";
+// import OhmLusdImg from "src/assets/tokens/APE-LUSD.png";
 import { ReactComponent as ArrowUp } from "../../assets/icons/arrow-up.svg";
 import { getLusdData } from "../../slices/LusdSlice";
 import { useWeb3Context } from "src/hooks/web3Context";
@@ -101,7 +102,7 @@ export default function ExternalStakePool() {
                     <TableCell>
                       <Box className="ohm-pairs">
                         <BondLogo bond={{ bondIconSvg: OhmLusdImg, isLP: true }}></BondLogo>
-                        <Typography>OHM-LUSD</Typography>
+                        <Typography>APE-LUSD</Typography>
                       </Box>
                     </TableCell>
                     <TableCell align="left">
@@ -151,7 +152,7 @@ export default function ExternalStakePool() {
               <div className={`pool-card-top-row ${isMobileScreen && "small"}`}>
                 <Box className="ohm-pairs">
                   <BondLogo bond={{ bondIconSvg: OhmLusdImg, isLP: true }}></BondLogo>
-                  <Typography gutterBottom={false}>OHM-LUSD</Typography>
+                  <Typography gutterBottom={false}>APE-LUSD</Typography>
                 </Box>
               </div>
               <div className="pool-data">

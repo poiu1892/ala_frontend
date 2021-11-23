@@ -108,14 +108,14 @@ function Wrap() {
       action === "wrap" &&
       ethers.utils.parseUnits(quantity, "gwei").gt(ethers.utils.parseUnits(sohmBalance, "gwei"))
     ) {
-      return dispatch(error("You cannot wrap more than your sOHM balance."));
+      return dispatch(error("You cannot wrap more than your sAPE balance."));
     }
 
     if (
       action === "unwrap" &&
       ethers.utils.parseUnits(quantity, "ether").gt(ethers.utils.parseUnits(wsohmBalance, "ether"))
     ) {
-      return dispatch(error("You cannot unwrap more than your wsOHM balance."));
+      return dispatch(error("You cannot unwrap more than your wsAPE balance."));
     }
 
     await dispatch(changeWrap({ address, action, value: quantity.toString(), provider, networkID: chainID }));
@@ -173,7 +173,7 @@ function Wrap() {
                   <Grid item xs={12} sm={4} md={4} lg={4}>
                     <div className="wrap-sOHM">
                       <Typography variant="h5" color="textSecondary">
-                        sOHM Price
+                        sAPE Price
                       </Typography>
                       <Typography variant="h4">
                         {sOhmPrice ? formatCurrency(sOhmPrice, 2) : <Skeleton width="150px" />}
@@ -193,7 +193,7 @@ function Wrap() {
                   <Grid item xs={12} sm={4} md={4} lg={4}>
                     <div className="wrap-wsOHM">
                       <Typography variant="h5" color="textSecondary">
-                        wsOHM Price
+                        wsAPE Price
                         <InfoTooltip
                           message={
                             "wsOHM = sOHM * index\n\nThe price of wsOHM is equal to the price of OHM multiplied by the current index"
@@ -319,8 +319,8 @@ function Wrap() {
                       <Box padding={1}>
                         <Typography variant="body2" className={classes.textHighlight}>
                           {isUnwrap
-                            ? `Unwrapping ${quantity} wsOHM will result in ${trim(convertedQuantity, 4)} sOHM`
-                            : `Wrapping ${quantity} sOHM will result in ${trim(convertedQuantity, 4)} wsOHM`}
+                            ? `Unwrapping ${quantity} wsAPE will result in ${trim(convertedQuantity, 4)} sOHM`
+                            : `Wrapping ${quantity} sAPE will result in ${trim(convertedQuantity, 4)} wsOHM`}
                         </Typography>
                       </Box>
                     )}

@@ -61,8 +61,8 @@ msgid "Award period has finished, you can navigate to Pool Together's UI to comp
 msgstr "Ödül süresi sonra erdi, dağıtımı tamamlamak için Pool Together'ın arayüzüne girebilirsiniz."
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:147
-#~ msgid "Backing per OHM"
-#~ msgstr "OHM başına ciro"
+#~ msgid "Backing per APE"
+#~ msgstr "APE başına ciro"
 
 #: src/views/Stake/ExternalStakePool.jsx:93
 #: src/views/Stake/ExternalStakePool.jsx:189
@@ -168,7 +168,7 @@ msgstr "Cüzdanınızı bağlayın"
 
 #: src/views/Stake/Stake.jsx:257
 msgid "Connect your wallet to stake APE"
-msgstr "OHM yatırmak için Cüzdanınızı bağlayın"
+msgstr "APE yatırmak için Cüzdanınızı bağlayın"
 
 #: src/views/Stake/Stake.jsx:235
 msgid "Current Index"
@@ -192,16 +192,16 @@ msgid "Deposit"
 msgstr "Yatır"
 
 #: src/views/33Together/PoolDeposit.jsx:162
-msgid "Deposit sOHM"
-msgstr "sOHM Yatır"
+msgid "Deposit sAPE"
+msgstr "sAPE Yatır"
 
 #: src/views/33Together/PoolDeposit.jsx:100
-msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
+msgid "Deposit sAPE to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sAPE is withdrawn."
 msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:179
-msgid "Depositing {quantity} sOHM will increase odds of winning to 1 in {newOdds}"
-msgstr "{quantity} sOHM yatırarak kazanma şansınız {newOdds}de 1 olacak."
+msgid "Depositing {quantity} sAPE will increase odds of winning to 1 in {newOdds}"
+msgstr "{quantity} sAPE yatırarak kazanma şansınız {newOdds}de 1 olacak."
 
 #: src/views/33Together/PoolDeposit.jsx:112
 msgid "Deposits can be made once the prize has been awarded."
@@ -296,8 +296,8 @@ msgid "Max You Can Buy"
 msgstr "Satın alabileceğiniz maksimum miktar"
 
 #: src/views/Stake/Stake.jsx:183
-msgid "Migrate sOHM!"
-msgstr "sOHM'unuzu taşıyın!"
+msgid "Migrate sAPE!"
+msgstr "sAPE'unuzu taşıyın!"
 
 #: src/views/Stake/Stake.jsx:442
 msgid "Next Reward Amount"
@@ -312,12 +312,12 @@ msgid "Next award"
 msgstr "Sıradaki Çekiliş"
 
 #: src/views/ChooseBond/ChooseBond.jsx:101
-msgid "OHM Price"
-msgstr "OHM Fiyatı"
+msgid "APE Price"
+msgstr "APE Fiyatı"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:286
-#~ msgid "OHM Staked"
-#~ msgstr "Yatırılan OHM Yüzdesi"
+#~ msgid "APE Staked"
+#~ msgstr "Yatırılan APE Yüzdesi"
 
 #: src/views/404/NotFound.jsx:14
 msgid "Page not found"
@@ -377,8 +377,8 @@ msgid "Prize is being awarded"
 msgstr "Ödül dağıtılıyor"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:248
-#~ msgid "Protocol Owned Liquidity OHM-DAI"
-#~ msgstr "Protokole Ait OHM-DAI Likiditesi"
+#~ msgid "Protocol Owned Liquidity APE-DAI"
+#~ msgstr "Protokole Ait APE-DAI Likiditesi"
 
 #: src/views/ChooseBond/BondRow.jsx:55
 #: src/views/ChooseBond/ChooseBond.jsx:126
@@ -444,7 +444,7 @@ msgstr "Yatır"
 
 #: src/views/Stake/Stake.jsx:344
 msgid "Stake APE"
-msgstr "OHM yatır"
+msgstr "APE yatır"
 
 #: src/views/Stake/ExternalStakePool.jsx:140
 #: src/views/Stake/ExternalStakePool.jsx:205
@@ -460,8 +460,8 @@ msgid "Staked Balance in Fuse"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:29
-msgid "Staking OHM"
-msgstr "OHM yatırılıyor"
+msgid "Staking APE"
+msgstr "APE yatırılıyor"
 
 #: src/views/Dashboard/Dashboard.jsx:66
 msgid "Supply (circulating/total)"
@@ -473,8 +473,8 @@ msgid "TVD"
 msgstr "Toplam yatırılan Miktar"
 
 #: src/views/TreasuryDashboard/TreasuryDashboard.jsx:158
-#~ msgid "The current index tracks the amount of sOHM accumulated since the beginning of staking. Basically, how much sOHM one would have if they staked and held a single OHM from day 1."
-#~ msgstr "Güncel Katsayı yatırımın başlangıcından itibaren ne kadar sOHM kazanıldığını gösterir."
+#~ msgid "The current index tracks the amount of sAPE accumulated since the beginning of staking. Basically, how much sAPE one would have if they staked and held a single APE from day 1."
+#~ msgstr "Güncel Katsayı yatırımın başlangıcından itibaren ne kadar sAPE kazanıldığını gösterir."
 
 #: src/views/33Together/PoolDeposit.jsx:109
 msgid "This Prize Pool is unable to accept deposits at this time."
@@ -518,18 +518,18 @@ msgstr "Eski LP Token'larınızı çekmek"
 
 #: src/views/Stake/Stake.jsx:373
 msgid "UnStake APE"
-msgstr "OHM çek"
+msgstr "APE çek"
 
 #: src/views/Stake/Stake.jsx:395
 msgid "Unstaked Balance"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:29
-msgid "Unstaking sOHM"
-msgstr "sOHM çekiliyor"
+msgid "Unstaking sAPE"
+msgstr "sAPE çekiliyor"
 
 #: src/slices/PendingTxnsSlice.ts:33
-msgid "Unwrapping sOHM"
+msgid "Unwrapping sAPE"
 msgstr ""
 
 #: src/views/Bond/BondPurchase.jsx:268
@@ -555,23 +555,23 @@ msgid "Withdraw Early & pay"
 msgstr "Erken çek ve ücret öde"
 
 #: src/views/33Together/PoolWithdraw.jsx:154
-msgid "Withdraw sOHM"
-msgstr "sOHM çek"
+msgid "Withdraw sAPE"
+msgstr "sAPE çek"
 
 #: src/views/33Together/PoolWithdraw.jsx:105
 msgid "Withdrawals can be made once the prize has been awarded."
 msgstr "Ödül dağıtıldıktan sonra para çekilebilir."
 
 #: src/views/33Together/PoolWithdraw.jsx:161
-msgid "Withdrawing {quantity} sOHM reduces your odds of winning to 1 in {newOdds}"
-msgstr "{quantity} sOHM çekmek kazanma şansınızı {newOdds}de 1'e düşürecektir"
+msgid "Withdrawing {quantity} sAPE reduces your odds of winning to 1 in {newOdds}"
+msgstr "{quantity} sAPE çekmek kazanma şansınızı {newOdds}de 1'e düşürecektir"
 
 #: src/views/Stake/Stake.jsx:431
 msgid "Wrapped Balance"
 msgstr ""
 
 #: src/slices/PendingTxnsSlice.ts:33
-msgid "Wrapping OHM"
+msgid "Wrapping APE"
 msgstr ""
 
 #: src/views/33Together/PoolInfo.jsx:107
@@ -588,13 +588,13 @@ msgstr ""
 
 #: src/views/Stake/Stake.jsx:119
 #: src/views/Stake/Stake.jsx:119
-msgid "You cannot stake more than your OHM balance."
-msgstr "OHM bakiyenizden daha fazla olan bir değeri yatıramazsınız."
+msgid "You cannot stake more than your APE balance."
+msgstr "APE bakiyenizden daha fazla olan bir değeri yatıramazsınız."
 
 #: src/views/Stake/Stake.jsx:123
 #: src/views/Stake/Stake.jsx:123
-msgid "You cannot unstake more than your sOHM balance."
-msgstr "sOHM bakiyenizden daha fazla olan bir değeri çekemezsiniz."
+msgid "You cannot unstake more than your sAPE balance."
+msgstr "sAPE bakiyenizden daha fazla olan bir değeri çekemezsiniz."
 
 #: src/views/33Together/PoolWithdraw.jsx:86
 msgid "You cannot withdraw more than your pool balance"
@@ -672,12 +672,12 @@ msgid "min"
 msgstr "dk."
 
 #: src/views/33Together/PoolInfo.jsx:158
-msgid "sOHM Pool Details"
-msgstr "sOHM Havuzu Detayları"
+msgid "sAPE Pool Details"
+msgstr "sAPE Havuzu Detayları"
 
 #: src/views/33Together/PoolInfo.jsx:150
-msgid "sOHM Prize Pool"
-msgstr "sOHM Ödül Havuzu"
+msgid "sAPE Prize Pool"
+msgstr "sAPE Ödül Havuzu"
 
 #: src/views/33Together/PoolPrize.jsx:160
 msgid "sec"
