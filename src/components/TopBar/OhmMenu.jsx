@@ -132,7 +132,7 @@ function OhmMenu() {
 
                   <Link component={NavLink} to="/wrap" style={{ textDecoration: "none" }}>
                     <Button size="large" variant="contained" color="secondary" fullWidth>
-                      <Typography align="left">Wrap sOHM</Typography>
+                      <Typography align="left">Wrap sAPE</Typography>
                     </Button>
                   </Link>
                 </Box>
@@ -180,7 +180,7 @@ function OhmMenu() {
                             viewBox="0 0 100 100"
                             style={{ height: "25px", width: "25px" }}
                           />
-                          <Typography variant="body1">sOHM</Typography>
+                          <Typography variant="body1">sAPE</Typography>
                         </Button>
                       )}
                       {WSOHM_ADDRESS && (
@@ -194,7 +194,7 @@ function OhmMenu() {
                             viewBox="0 0 180 180"
                             style={{ height: "25px", width: "25px" }}
                           />
-                          <Typography variant="body1">wsOHM</Typography>
+                          <Typography variant="body1">wsAPE</Typography>
                         </Button>
                       )}
                       {PT_TOKEN_ADDRESS && (
