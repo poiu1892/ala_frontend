@@ -124,4 +124,4 @@ Only the following people have merge access for the master branch.
 
 ## 🗣 Community
 
-- [Join our Discord](https://discord.gg/gGZUMVDuhQ) and ask how you can get involved with the DAO!
+- [Join our Discord](https://discord.gg/jcX4WvAZ) and ask how you can get involved with the DAO!
