@@ -130,11 +130,11 @@ function OhmMenu() {
                     </Button>
                   </Link>
 
-                  <Link component={NavLink} to="/wrap" style={{ textDecoration: "none" }}>
+                  {/* <Link component={NavLink} to="/wrap" style={{ textDecoration: "none" }}>
                     <Button size="large" variant="contained" color="secondary" fullWidth>
                       <Typography align="left">Wrap sAPE</Typography>
                     </Button>
-                  </Link>
+                  </Link> */}
                 </Box>
 
                 {/* <Box component="div" className="data-links">
@@ -183,7 +183,7 @@ function OhmMenu() {
                           <Typography variant="body1">sAPE</Typography>
                         </Button>
                       )}
-                      {WSOHM_ADDRESS && (
+                      {/* {WSOHM_ADDRESS && (
                         <Button
                           variant="contained"
                           color="secondary"
@@ -210,12 +210,12 @@ function OhmMenu() {
                           />
                           <Typography variant="body1">33T</Typography>
                         </Button>
-                      )}
+                      )} */}
                     </Box>
                   </Box>
                 ) : null}
 
-                <Divider color="secondary" />
+                {/* <Divider color="secondary" />
                 <Link
                   href="https://docs.olympusdao.finance/using-the-website/unstaking_lp"
                   target="_blank"
@@ -227,7 +227,7 @@ function OhmMenu() {
                     </Typography>
                     <Typography align="left">Unstake Legacy LP Token</Typography>
                   </Button>
-                </Link>
+                </Link> */}
               </Paper>
             </Fade>
           );
