@@ -7,13 +7,13 @@ import { ReactComponent as Discord } from "../../assets/icons/discord.svg";
 export default function Social() {
   return (
     <div className="social-row">
-      <Link href="https://github.com/apebankDAO" target="_blank">
+      {/* <Link href="https://github.com/apebankDAO" target="_blank">
         <SvgIcon color="primary" component={GitHub} />
-      </Link>
+      </Link> */}
 
-      <Link href="https://apebankdao.medium.com/" target="_blank">
+      {/* <Link href="https://apebankdao.medium.com/" target="_blank">
         <SvgIcon color="primary" component={Medium} />
-      </Link>
+      </Link> */}
 
       <Link href="https://twitter.com/apebankdao" target="_blank">
         <SvgIcon color="primary" component={Twitter} />
