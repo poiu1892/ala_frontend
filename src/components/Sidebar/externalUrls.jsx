@@ -18,7 +18,7 @@ const externalUrls = [
   // },
   {
     title: <Trans>Docs</Trans>,
-    url: "https://docs.olympusdao.finance/",
+    url: "https://docs.apebank.io/",
     icon: <SvgIcon color="primary" component={DocsIcon} />,
   },
   // {
