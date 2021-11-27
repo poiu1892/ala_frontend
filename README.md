@@ -1,8 +1,6 @@
-# [Ω APEBANK Frontend](https://app.APEBANK.finance/)
+# [Ω APEBANK Frontend](https://dev.APEBANK.io/)
 
 This is the front-end repo for APEBANK that allows users be part of the future of Greece.
-
-**_ Note We're currently in the process of switching to TypeScript. Please read this guide on how to use TypeScript for this repository. https://github.com/APEBANK/aladao-frontend/wiki/TypeScript-Refactor-General-Guidelines _**
 
 ## 🔧 Setting up Local Development
 
@@ -13,8 +11,8 @@ Required:
 - [Git](https://git-scm.com/downloads)
 
 ```bash
-$ git clone https://github.com/APEBANK/aladao.git
-$ cd aladao
+$ git clone https://github.com/apebankio/xx.git
+$ cd xx
 
 # set up your environment variables
 # read the comments in the .env files for what is required/optional
@@ -65,54 +63,11 @@ The files/folder structure are a **WIP** and may contain some unused files. The 
 └── views/        // Individual Views
 ```
 
-## Application translation
-
-APEBANK uses [linguijs](https://github.com/lingui/js-lingui) to manage translation.
-
-The language files are located in a submodule deployed in `src/locales/translations`. This submodule points to the [APEBANK translation repository](https://github.com/APEBANK/APEBANK-translations)
-
-In order to mark text for translation you can use:
-
-- The <Trans> component in jsx templates eg. `<Trans>Translate me!</Trans>`
-- The t function in javascript code and jsx templates. `` t`Translate me` ``
-  You can also add comments for the translators. eg.
-
-```
-t({
-	id: "do_bond",
-	comment: "The action of bonding (verb)",
-})
-```
-
-When new texts are created or existing texts are modified in the application please leave a message in the APEBANK app-translation channel for the translators to translate them.
-
 ## 🚀 Deployment
 
 Auto deployed on [Fleek.co](http://fleek.co/) fronted by [Cloudflare](https://www.cloudflare.com/). Since it is hosted via IPFS there is no running "server" component and we don't have server sided business logic. Users are served an `index.html` and javascript to run our applications.
 
 _**TODO**: TheGraph implementation/how/why we use it._
-
-### Continuous deployment
-
-Commits to the follow branches are automatically deployed to their respective URLs.
-| Branch | URL |
-| --- | --- |
-| master | https://app.APEBANK.finance |
-| deploy | https://staging.APEBANK.finance |
-
-**Pull Requests**:
-Each PR into master will get its own custom URL that is visible on the PR page. QA & validate changes on that URL before merging into the deploy branch.
-
-## 👏🏽 Contributing Guidelines
-
-We keep an updated list of bugs/feature requests in [Github Issues](https://github.com/APEBANK/APEBANK/issues).
-
-![GitHub issues](https://img.shields.io/github/issues/APEBANK/APEBANK?style=flat-square)
-
-Filter by ["good first issue"](https://github.com/APEBANK/APEBANK/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) to get your feet wet!
-Once you submit a PR, our CI will generate a temporary testing URL where you can validate your changes. Tag any of the gatekeepers on the review to merge them into master.
-
-_**NOTE**_: For big changes associated with feature releases/milestones, they will be merged onto the `develop` branch for more thorough QA before a final merge to `master`
 
 **Defenders of the code**:
 
