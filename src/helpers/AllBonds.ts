@@ -53,10 +53,10 @@ export const dai = new StableBond({
   },
 });
 
-export const frax = new StableBond({
-  name: "frax",
-  displayName: "FRAX",
-  bondToken: "FRAX",
+export const boba = new StableBond({
+  name: "boba",
+  displayName: "BOBA",
+  bondToken: "BOBA",
   isAvailable: { [NetworkID.Mainnet]: true, [NetworkID.Testnet]: true },
   bondIconSvg: FraxImg,
   bondContractABI: FraxBondContract,
@@ -66,8 +66,8 @@ export const frax = new StableBond({
       reserveAddress: "0x853d955acef822db058eb8505911ed77f175b99e",
     },
     [NetworkID.Testnet]: {
-      bondAddress: "0xCAf04CDEC92685BC061E7cd3E40086ED25Fe0bB8",
-      reserveAddress: "0x7eC96d5425eF0D1499d951627AC26B835449188b",
+      bondAddress: "0x1e35D66aAcD1E02D630E8E7334A5f6f4dD35927A",
+      reserveAddress: "0x6f0BDEc59D9664930b201F782ebDC43C7f143C95",
     },
   },
 });
@@ -305,7 +305,7 @@ export const ohm_weth = new CustomBond({
 // Is it a stableCoin bond? use `new StableBond`
 // Is it an LP Bond? use `new LPBond`
 // Add new bonds to this array!!
-export const allBonds = [frax];
+export const allBonds = [boba];
 // TODO (appleseed-expiredBonds): there may be a smarter way to refactor this
 export const allExpiredBonds = [dai];
 export const allBondsMap = allBonds.reduce((prevVal, bond) => {
