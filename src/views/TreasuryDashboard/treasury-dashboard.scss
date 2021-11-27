@@ -15,6 +15,15 @@
     display: none !important;
   }
 
+  .ape-card-1 {
+    padding: 20px;
+    text-align: center;
+    h5 {
+      font-weight: 500;
+      margin-top: 8px;
+    }
+  }
+
   .ohm-card {
     max-width: unset !important;
     width: 100%;
@@ -74,9 +83,9 @@
 .mobile {
   div.metric {
     white-space: nowrap;
-    min-width: 30% !important;
-    max-width: 60%;
-    text-align: left !important;
+    // min-width: 30% !important;
+    // max-width: 60%;
+    // text-align: left !important;
     &.market,
     &.price,
     &.wsoprice,
